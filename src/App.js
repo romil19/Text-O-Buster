@@ -41,7 +41,7 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
+    <Navbar title="Text-O-Buster" mode={mode} toggleMode={toggleMode}  />
     <Alert alert={alert}/>
     <Switch>
     {/* /users --> Component 1
